@@ -30,7 +30,7 @@ public class WeatherRequest {
             JSONObject jsonResponse = new JSONObject(response);
 
             // Вывод ответа в формате JSON
-            System.out.println("Response from API: " + jsonResponse.toString(4)); // С отступами для удобства чтения
+            System.out.println("Response from API: " + jsonResponse.toString(4));
 
             // Текущая температура
             JSONObject fact = jsonResponse.getJSONObject("fact");
